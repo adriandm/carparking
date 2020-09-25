@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap');
+.appbar {
+  background-color:#4d4948;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +11,26 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.head-link {
+  padding: 10px 20px 10px 20px ;
+  color: #fff;
+  font-family: 'Montserrat', 'Arial';
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px; 
+  font-weight: 300;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 22px; 
+  font-weight: 300;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +53,280 @@
 .App-link {
   color: #61dafb;
 }
+.menu-titulo {
+  padding: 10px 10px 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color:#f4d03f;
+}
+.imagen-inicio {
+  width:125%;
+}
+.bar-titulo {
+  padding: 10px 10px 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px; 
+  font-weight: 500;
+  color:#f4d03f;
+}
+.titulo {
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px; 
+  font-weight: 500;
+  color:#f1c40e;
+}
+.texto {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px; 
+  font-weight: 300;
+  text-align:justify;
+  padding:30px;
+}
+.svg-texto {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4px; 
+  font-weight: 300;
+  text-align:justify;
+  padding:30px;
+  color:#f1c40e;
+}
+.svg-texto1 {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2px; 
+  font-weight: 300;
+  text-align:justify;
+  padding:30px;
+  color:#f1c40e;
+}
+.imagen {
+  margin-left: 30%;
+  
+}
+.input-box{
+  border: 1px solid #f1c40e !important;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 20%;
+  
+}
+.input-button{
+  border: 1px solid #ccc !important;
+  background-color: #f1c40e;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 20%;
+  text-decoration: none;
+  
+}
+.texto1 {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; 
+  font-weight: 300;
+  text-align:justify;
+  
+}
+.input-box1{
+  border: 1px solid #f1c40e !important;
+  padding: 6px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  width: 85%;
+  
+}
+.input-button1{
+  border: 1px solid #ccc !important;
+  background-color: #f1c40e;
+  padding: 6px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 87%;
+}
+.division-area {
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:80px;
+  padding-bottom:80px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color:#4d4948;
+}
+.button-custom {
+  font-family: 'Lato';
+  font-size: 22px;
+  padding: 3%;
+  color:#000000;
+  background-color:#f1c40e;
+  float:right;
+  border-radius: 5px;
+}
+.paper-pasos{
+  height:460px;
+}
+.map-area{
+  border: 2px solid #ada9ad !important;
+  padding:30px;
+}
+.login{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.pasos {
+  margin-bottom: 180px;
+}
+.footer-area {
+  text-align:center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:#4d4948;
+}
+.footer-area p {
+  color:#fff;
+}
+
+.footer-area h3 {
+  color:#fff;
+}
+    @media (max-width: 750px){
+          h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px; 
+            font-weight: 300;
+          }
+          p {
+            font-size: 12px;
+          }
+          .menu-titulo {
+            padding: 10px 10px 10px 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px; 
+            font-weight: 500;
+            color:#f4d03f;
+          }
+          .imagen-inicio {
+            width:100%;
+            display: inline-flex;
+          }
+          .bar-titulo {
+            padding: 10px 10px 10px 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px; 
+            font-weight: 500;
+            color:#f4d03f;
+          }
+          .titulo {
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px; 
+            font-weight: 500;
+            color:#f1c40e;
+          }
+          .texto {
+            padding: 3px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px; 
+            font-weight: 300;
+            text-align:justify;
+            padding:10px;
+          }
+          .titulo-pasos {
+            font-size: 26px; 
+            text-align: center;
+          }
+          .texto-pasos {
+            padding: 3px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px; 
+            font-weight: 300;
+            text-align:justify;
+            padding:10px;
+          }
+          .button-custom {
+            font-family: 'Lato';
+            font-size: 16px;
+            padding: 3%;
+            color:#404040;
+            background-color:#f1c40e;
+            float:right;
+          }
+          .paper-pasos{
+            height:290px;
+          }
+          .input-box{
+            border: 1px solid #f1c40e !important;
+            padding: 10px;
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 20%;
+            
+          }
+          .input-button{
+            border: 1px solid #ccc !important;
+            background-color: #f1c40e;
+            padding: 10px;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            text-align: center;
+            width: 30%;
+            border-radius: 10px;
+          }
+          .svg-texto {
+            padding: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4px; 
+            font-weight: 300;
+            text-align:justify;
+            padding:30px;
+            color:#f1c40e;
+          }
+          .division-area {
+            text-align:center;
+            margin-top:5px;
+            margin-bottom:5px;
+            padding-top:30px;
+            padding-bottom:30px;
+            padding-left: 5%;
+            padding-right: 5%;
+            background-color:#4d4948;
+          }
+          .head-link {
+            padding: 5px 2px 5px 2px ;
+            color: #fff;
+            font-family: 'Montserrat', 'Arial';
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: none;
+            width: 25%;
+          }
+          .map-area {
+            border: 1px solid #dadada !important;
+            margin:10px;
+            padding:10px;
+          }
+          .map-style {
+            padding-left:15px;
+          }
+          .pasos {
+            margin-bottom: 50px;
+          }
+          .plano {
+            padding-top: 50px;
+            padding-bottom: 50px;
+          }
+    }
 
 @keyframes App-logo-spin {
   from {
